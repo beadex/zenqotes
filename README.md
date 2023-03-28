@@ -16,4 +16,12 @@ Options:
 
 `--help`     Show help                                                 [boolean]
 
+## Install & Use
+
+`npm install -g zenqotes`
+
+Or use it on the go:
+
+`npx zenqotes`
+
 Powered by ZenQuotes © 2023 ZenQuotes.io
