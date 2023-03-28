@@ -2,6 +2,10 @@
   "name": "zenqotes",
   "version": "1.0.1",
   "description": "Motivation quotes from the greats",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beadex/zenqotes"
+  },
   "main": "bin/index.js",
   "scripts": {
     "prepublish": "npx license mit > LICENSE && npx gitignore node && npx covgen"
