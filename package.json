@@ -7,9 +7,6 @@
     "url": "https://github.com/beadex/zenqotes"
   },
   "main": "bin/index.js",
-  "scripts": {
-    "prepublish": "npx license mit > LICENSE && npx gitignore node && npx covgen"
-  },
   "bin": {
     "zenqotes": "bin/index.js"
   },
@@ -19,18 +16,18 @@
     "motivation"
   ],
   "author": "Phong Tran <phongtran@unstatic.co>",
-  "license": "Python-2.0",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
-    "covgen": "^3.2.1",
     "cowsay": "^1.5.0",
-    "gitignore": "^0.7.0",
-    "license": "^1.0.3",
     "node-fetch": "^2.6.9",
     "yargs": "^17.7.1"
   },
   "devDependencies": {
+    "covgen": "^3.2.1",
     "cz-conventional-changelog": "^3.3.0",
+    "gitignore": "^0.7.0",
+    "license": "^1.0.3",
     "prettier": "^2.8.7"
   },
   "config": {
